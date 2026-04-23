@@ -1,4 +1,4 @@
-package com.example.focustimermvvm.ui.theme
+package com.example.focustimermvvm.presentation.theme
 
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp

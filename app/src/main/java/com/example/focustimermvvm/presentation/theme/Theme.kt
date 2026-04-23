@@ -1,7 +1,5 @@
-package com.example.focustimermvvm.ui.theme
+package com.example.focustimermvvm.presentation.theme
 
-import android.R
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
