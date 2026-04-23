@@ -11,6 +11,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.focustimermvvm.presentation.theme.FocusTimerMVVMTheme
 
 @Composable
 fun AutoResizedText (
@@ -37,5 +38,17 @@ fun AutoResizedText (
     )
 
 
+}
+
+
+@Preview()
+@Composable
+fun AutoResizedTextPreview () {
+
+    FocusTimerMVVMTheme(
+        content ={
+            AutoResizedText(text = "Prueba")
+        }
+    )
 }
 
