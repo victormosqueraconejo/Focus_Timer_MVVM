@@ -41,7 +41,7 @@ fun AutoResizedText (
 }
 
 
-@Preview()
+@Preview(showBackground = true)
 @Composable
 fun AutoResizedTextPreview () {
 
