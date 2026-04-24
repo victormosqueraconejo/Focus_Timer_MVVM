@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.style.TextAlign
 import com.example.focustimermvvm.presentation.theme.FocusTimerMVVMTheme
 
 
@@ -33,7 +34,10 @@ fun CustomButton (
     ) {
         Text(
             text = text,
-            modifier = Modifier.fillMaxWidth().align(Alignment.CenterVertically),
+            modifier = Modifier
+                .fillMaxWidth()
+                .align(Alignment.CenterVertically),
+            textAlign = TextAlign.Center,
             style = MaterialTheme.typography.bodyLarge,
             color = textColor
         )
